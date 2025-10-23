@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚗 자동차보험서비스: 가장 합리적인 다이렉트 자동차보험 비교 견적부터 가입까지</title>
+    <meta name="description" content="가장 합리적인 자동차보험서비스를 찾고 계신가요? 국내 주요 보험사의 다이렉트 자동차보험료를 실시간으로 비교하고, 맞춤형 보험 설계와 갱신 팁을 제공합니다. 책임보험, 대물, 자차, 무보험차 상해 등 모든 보장 내용을 상세히 안내합니다.">
+    <meta name="keywords" content="자동차보험서비스, 다이렉트 자동차보험, 자동차보험 비교견적, 자동차보험료 계산, 자동차보험 가입, 책임보험, 차량보험, 보험료 절약 팁, 자동차보험 갱신, 운전자 범위">
+    <meta name="author" content="대한민국 자동차보험 전문 컨설팅">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+  
+  
+  
+  
+  
+  <style>
+        /* 새로운 디자인: 다채롭고 부드러운 색감, 명확한 시각적 계층 구조 */
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.7; /* 가독성 향상 */
+            background-color: #f7f9fc; /* 부드러운 배경색 */
+            color: #333;
+        }
+        header {
+            background-color: #007bff; /* 주 색상: 신뢰감을 주는 파란색 */
+            background-image: linear-gradient(135deg, #007bff 0%, #00c6ff 100%); /* 그라데이션 적용 */
+            color: white;
+            padding: 2.5rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: -1px; /* 타이틀 강조 */
+        }
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 2.5rem;
+            margin-top: 1.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #ffcc00; /* 포인트 색상 */
+        }
+        main {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+        section {
+            background-color: white;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+            border-top: 5px solid #007bff; /* 포인트 라인 */
+        }
+        h2 {
+            color: #d9534f; /* 부드러운 빨간색 (중요 강조) */
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #f7f9fc;
+            padding-bottom: 0.5rem;
+        }
+        h3 {
+            color: #004080;
+            font-size: 1.4rem;
+            margin-top: 2rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+        th, td {
+            padding: 1rem;
+            border: 1px solid #eee;
+            text-align: left;
+        }
+        th {
+            background-color: #e6f0ff; /* 테이블 헤더 배경색 */
+            color: #004080;
+            font-weight: 700;
+        }
+        .cta-button {
+            display: block;
+            background-color: #ff9900; /* 활력 있는 주황색 */
+            color: white;
+            font-weight: 700;
+            padding: 1.2rem 2.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            margin: 2rem auto;
+            max-width: 300px;
+            text-align: center;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease, transform 0.2s;
+            box-shadow: 0 4px 6px rgba(255, 153, 0, 0.4);
+        }
+        .cta-button:hover {
+            background-color: #e68a00;
+            transform: translateY(-2px);
+        }
+        .keyword-tags {
+            margin: 2rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .keyword-tags a {
+            background-color: #e9ecef;
+            color: #555;
+            padding: 8px 15px;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: background-color 0.3s ease, color 0.3s;
+        }
+        .keyword-tags a:hover {
+            background-color: #cfd8dc;
+            color: #222;
+        }
+
+        /* 폼 요소 스타일 */
+        form label {
+            display: block;
+            font-weight: 600;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            color: #004080;
+        }
+        form input[type="text"], 
+        form input[type="email"], 
+        form input[type="tel"],
+        form select {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 1rem;
+            border: 1px solid #ced4da;
+            border-radius: 6px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+        form input:focus, form select:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        /* 외부 링크 섹션 */
+        .external-links ul {
+            list-style: none;
+            padding: 0;
+        }
+        .external-links li {
+            margin-bottom: 0.75rem;
+        }
+        .external-links a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .external-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* 정보성 텍스트 스타일 */
+        .info-content {
+            padding: 1.5rem;
+            background-color: #f0f8ff; /* 연한 하늘색 배경 */
+            border-left: 5px solid #007bff;
+            margin-top: 1.5rem;
+            border-radius: 8px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #777;
+            background-color: #e9ecef;
+            margin-top: 3rem;
+        }
+        
+        /* FAQ 아코디언 스타일 */
+        dl dt {
+            font-weight: 700;
+            margin-top: 1rem;
+            padding: 15px;
+            background-color: #f0f8ff;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            cursor: pointer;
+            color: #007bff;
+            transition: background-color 0.3s;
+            position: relative;
+        }
+        dl dt:hover {
+            background-color: #e6f0ff;
+        }
+        dl dd {
+            margin-left: 0;
+            margin-bottom: 1rem;
+            padding: 15px;
+            border: 1px solid #dee2e6;
+            border-top: none;
+            background-color: white;
+            border-radius: 0 0 6px 6px;
+            display: none;
+        }
+        dl dt.active + dd {
+            display: block;
+        }
+        dl dt::after {
+            content: '▼';
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: transform 0.3s;
+        }
+        dl dt.active::after {
+            content: '▲';
+        }
+
+    </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "자동차보험 비교 및 가입 서비스",
+        "provider": {
+          "@type": "Organization",
+          "name": "대한민국 자동차보험 비교 플랫폼",
+          "url": "https://yourdomain.com",
+          "logo": "https://yourdomain.com/logo.png"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "대한민국"
+        },
+        "description": "국내 모든 자동차보험 상품을 비교하고 가장 저렴하고 보장이 좋은 보험을 찾아드립니다. 실시간 보험료 계산 및 전문가 상담 제공.",
+        "offers": {
+            "@type": "AggregateOffer",
+            "lowPrice": "300000",
+            "highPrice": "2000000",
+            "priceCurrency": "KRW",
+            "offerCount": "10+"
+        }
+      }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>🚗 자동차보험서비스: 합리적인 보험료, 든든한 보장</h1>
+        <p>국내 주요 보험사 다이렉트 자동차보험료를 실시간으로 비교하고, 맞춤형 견적을 받아보세요.</p>
+        <nav aria-label="주요 서비스 메뉴">
+            <ul>
+                <li><a href="#비교견적">보험 비교견적</a></li>
+                <li><a href="#보험종류">보장 항목 상세</a></li>
+                <li><a href="#절약팁">보험료 절약 팁</a></li>
+                <li><a href="#자주묻는질문">자주 묻는 질문</a></li>
+                <li><a href="#문의하기">상담 및 문의</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="비교견적">
+            <h2>💰 실시간 자동차보험 비교 견적 서비스</h2>
+            <p>차량 정보와 운전자 정보를 입력하시면, 국내 10여 개 보험사의 최신 자동차보험료를 즉시 비교해 드립니다. 가장 저렴한 보험료와 최적의 보장 조건을 한눈에 확인하세요.</p>
+
+            <form action="#" method="POST" class="form-group" aria-label="간편 자동차보험료 비교 견적 입력 양식">
+                <h3>1분 간편 견적 요청</h3>
+                <label for="car-model">차량 모델 및 연식:</label>
+                <input type="text" id="car-model" name="car_model" placeholder="예: 2023년식 쏘나타" required>
+
+                <label for="driver-age">주 운전자 연령:</label>
+                <select id="driver-age" name="driver_age" required>
+                    <option value="">선택</option>
+                    <option value="20대">20대</option>
+                    <option value="30대">30대</option>
+                    <option value="40대">40대</option>
+                    <option value="50대">50대 이상</option>
+                </select>
+
+                <label for="insurance-period">희망 보험 시작일:</label>
+                <input type="date" id="insurance-period" name="insurance_period" required>
+
+                <a href="#" class="cta-button" onclick="alert('잠시 후 전문 상담원이 연락드립니다.'); return false;" aria-label="실시간 보험료 비교 결과 확인하기">실시간 보험료 비교 결과 확인하기</a>
+            </form>
+
+            <div class="keyword-tags" aria-label="연관 키워드 태그 목록">
+                <a href="#절약팁">자동차보험료 절약 팁</a>
+                <a href="#보험종류">다이렉트 자동차보험 장점</a>
+                <a href="#보험종류">책임보험 대물 한도</a>
+                <a href="#자주묻는질문">자동차보험 갱신 시기</a>
+                <a href="#비교견적">최저가 자동차보험</a>
+                <a href="#">자동차보험 할인 특약</a>
+            </div>
+        </section>
+        
+        <hr>
+
+        <section id="보험종류">
+            <h2>📜 자동차보험 필수 보장 항목 상세 안내</h2>
+            <p>자동차보험은 의무적으로 가입해야 하는 **책임보험**과 운전자의 선택에 따라 가입하는 **임의보험**으로 나뉩니다. 각 보장 항목을 자세히 이해하고 나에게 맞는 설계를 해야 불필요한 비용을 줄이고 사고 발생 시 충분한 보상을 받을 수 있습니다.</p>
+
+            <h3>1. 의무 가입 항목: 책임보험 (대인배상 I, 대물배상)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>구분</th>
+                        <th>보상 내용</th>
+                        <th>의무 가입 기준</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>대인배상 I</td>
+                        <td>사고로 인해 타인이 사망하거나 다친 경우 보상</td>
+                        <td>최고 한도액 법정 기준</td>
+                    </tr>
+                    <tr>
+                        <td>대물배상</td>
+                        <td>타인의 차량이나 재물에 피해를 입힌 경우 보상</td>
+                        <td>**최소 2천만 원 이상** (미가입 시 과태료 발생)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>2. 선택 가입 항목: 임의보험</h3>
+            <div class="info-content">
+                <p><strong>✅ 대인배상 II:</strong> 책임보험 한도를 초과하는 손해액 보상. **무한 가입**을 권장하여 형사 처벌 부담을 덜 수 있습니다.</p>
+                <p><strong>✅ 자기차량손해 (자차):</strong> 본인 차량의 파손 수리비 보상. **자기부담금** 비율을 잘 확인해야 합니다.</p>
+                <p><strong>✅ 자기신체사고 / 자동차상해:</strong> 운전자 본인이나 동승자가 다친 경우 보상. **자동차상해**가 보장 한도와 범위 면에서 훨씬 유리합니다.</p>
+                <p><strong>✅ 무보험차 상해:</strong> 보험이 없는 차량에 사고를 당했을 때 보상. 가입 필수 항목으로 간주됩니다.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="절약팁">
+            <h2>💡 자동차보험료를 절약하는 7가지 꿀팁</h2>
+            <p>매년 갱신해야 하는 자동차보험료, 조금만 신경 쓰면 수십만 원을 아낄 수 있습니다. 다이렉트 가입은 기본이며, 다양한 할인 특약을 적극적으로 활용하세요.</p>
+            
+            <div class="info-content">
+                <p>1. **다이렉트 가입:** 설계사 수수료가 없어 평균 15~20% 저렴합니다.</p>
+                <p>2. **마일리지 특약:** 운행 거리가 적으면 보험료를 환급받습니다. (연간 1만~1.5만 km 이하 시 유리)</p>
+                <p>3. **블랙박스 특약:** 블랙박스를 장착하면 할인 혜택을 받을 수 있습니다.</p>
+                <p>4. **안전운전 습관 특약 (UBI):** T맵, 카카오내비 등의 안전운전 점수에 따라 할인을 제공합니다.</p>
+                <p>5. **자녀 할인 특약:** 만 5세~만 7세 이하의 자녀가 있는 경우 보험료 할인을 받을 수 있습니다. **가장 큰 폭의 할인**이 적용됩니다.</p>
+                <p>6. **운전자 범위 최소화:** 운전자의 범위를 부부 한정, 1인 한정 등으로 좁히면 보험료가 내려갑니다.</p>
+                <p>7. **교통법규 준수:** 무사고 경력과 교통법규 위반이 없으면 보험료 할증을 피할 수 있습니다.</p>
+            </div>
+
+            <form action="#" method="POST" class="form-group" aria-label="할인 특약 적용 시뮬레이션 양식">
+                <h3>내게 맞는 할인 특약 예상 금액 확인</h3>
+                <label for="annual-mileage">연간 예상 운행 거리 (km):</label>
+                <input type="number" id="annual-mileage" name="annual_mileage" placeholder="예: 7000" min="0" required>
+
+                <label for="child-status">자녀 유무 및 연령:</label>
+                <select id="child-status" name="child_status" required>
+                    <option value="none">자녀 없음</option>
+                    <option value="child-under7">만 7세 이하 자녀 있음 (고할인)</option>
+                    <option value="child-over7">만 7세 초과 자녀 있음 (일반 할인)</option>
+                </select>
+
+                <label for="driving-score">운전 점수 (T맵/카카오내비):</label>
+                <input type="number" id="driving-score" name="driving_score" placeholder="예: 80점 이상" min="0" max="100">
+
+                <a href="#" class="cta-button" onclick="alert('입력하신 정보로 최대 할인율을 계산 중입니다.'); return false;" aria-label="할인 특약 예상 결과 보기">할인 특약 예상 결과 보기</a>
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="자주묻는질문">
+            <h2>❓ 자동차보험 자주 묻는 질문 (FAQ)</h2>
+            <dl role="presentation">
+                <dt tabindex="0" aria-expanded="false">다이렉트와 설계사 가입, 보험료 차이가 큰가요?</dt>
+                <dd>네, 다이렉트 보험은 평균적으로 설계사 수수료가 절감되어 **15~20%** 가량 저렴합니다. 보장 내용은 동일합니다.</dd>
+                <dt tabindex="0" aria-expanded="false">자동차보험 갱신은 언제부터 가능한가요?</dt>
+                <dd>대부분의 보험사는 **만기일 30일 전**부터 갱신이 가능하며, 미리 비교해야 여유롭게 최적의 상품을 선택할 수 있습니다.</dd>
+                <dt tabindex="0" aria-expanded="false">사고가 났을 때 보험료 할증 기준이 궁금합니다.</dt>
+                <dd>할증 기준은 보험사마다 다소 차이가 있으나, 보통 **물적 사고 기준 금액(200만 원)** 초과 시 할증률이 크게 높아지며, 무사고 기간이 길수록 할인 폭이 커집니다.</dd>
+                <dt tabindex="0" aria-expanded="false">운전자 범위를 변경하려면 어떻게 해야 하나요?</dt>
+                <dd>보험사에 직접 연락하거나 다이렉트 앱/웹사이트를 통해 간편하게 변경 가능합니다. 임시 운전자 추가는 단기적으로 활용하기 좋습니다.</dd>
+            </dl>
+        </section>
+
+        <hr>
+
+        <section id="문의하기">
+            <h2>📞 전문가 상담 및 문의</h2>
+            <p>복잡한 자동차보험, 혼자 고민하지 마세요. 저희 전문 컨설턴트가 고객님의 조건에 맞는 최적의 보험을 안내해 드립니다.</p>
+            <ul>
+                <li>전화: <strong>1588-XXXX</strong> (평일 09:00 ~ 18:00)</li>
+                <li>이메일: <a href="mailto:support@yourdomain.com">support@yourdomain.com</a></li>
+            </ul>
+
+            <form action="#" method="POST" class="form-group" aria-label="전문가 상세 상담 요청 양식">
+                <h3>상세 상담 요청</h3>
+                <label for="user-name">이름:</label>
+                <input type="text" id="user-name" name="user_name" placeholder="이름" required>
+
+                <label for="user-tel">연락처:</label>
+                <input type="tel" id="user-tel" name="user_tel" placeholder="010-XXXX-XXXX" required>
+
+                <label for="consult-time">희망 상담 시간대:</label>
+                <select id="consult-time" name="consult_time">
+                    <option value="am">오전 (9시~12시)</option>
+                    <option value="pm1">오후 (1시~4시)</option>
+                    <option value="pm2">저녁 (4시~6시)</option>
+                </select>
+
+                <label for="consult-topic">주요 상담 내용:</label>
+                <input type="text" id="consult-topic" name="consult_topic" placeholder="예: 자차보험 가입 여부, 무사고 할인 문의">
+
+                <a href="#" class="cta-button" onclick="alert('상담 요청이 접수되었습니다. 곧 연락드리겠습니다.'); return false;" aria-label="전문가 상담 요청하기">전문가 상담 요청하기</a>
+            </form>
+        </section>
+
+        <hr>
+
+        <section class="external-links">
+            <h2>🔗 신뢰할 수 있는 외부 정보 출처</h2>
+            <p>자동차보험 관련 법규 및 공신력 있는 정보를 확인하세요.</p>
+            <ul>
+                <li><a href="https://www.law.go.kr/LSW/main.html" target="_blank" rel="noopener noreferrer">대한민국 법제처 (자동차손해배상 보장법)</a> (정부사이트)</li>
+                <li><a href="https://www.fss.or.kr/" target="_blank" rel="noopener noreferrer">금융감독원 (보험정보 포털)</a> (정부기관)</li>
+                <li><a href="https://www.kidi.or.kr/main/main.do" target="_blank" rel="noopener noreferrer">보험개발원 (자동차보험 관련 통계 및 정보)</a> (공공기관)</li>
+                <li><a href="https://namu.wiki/w/자동차보험" target="_blank" rel="noopener noreferrer">나무위키 - 자동차보험</a> (정보성 커뮤니티)</li>
+                <li><a href="https://www.gov.kr/main?a=AA020InfoCapMain" target="_blank" rel="noopener noreferrer">대한민국 정부24 (자동차 관련 민원)</a> (정부사이트)</li>
+            </ul>
+        </section>
+
+        <hr>
+        
+        <section id="extensive-info" aria-label="자동차보험의 모든 것: 심층 분석 및 상세 정보">
+            <h2>🚀 자동차보험 서비스 심층 분석: 보장 범위, 가입 노하우, 법적 의무 사항</h2>
+            <div class="info-content">
+                <p>자동차보험은 단순히 사고 발생 시 금전적인 손해를 보상받는 것을 넘어, 법적 의무를 이행하고 복잡한 교통사고 문제에서 운전자를 보호하는 가장 중요한 수단입니다. 대한민국에서 자동차를 운행하려면 **자동차손해배상 보장법**에 따라 반드시 책임보험에 가입해야 합니다. 책임보험 미가입 시에는 과태료가 부과되며, 사고 시 모든 법적/재정적 책임을 운전자 본인이 져야 하므로 절대 간과해서는 안 됩니다.</p>
+
+                <h3>자동차보험료 산정의 핵심 요소들</h3>
+                <p>자동차보험료는 수많은 요소를 복합적으로 고려하여 산정됩니다. 이 요소들을 이해하는 것이 보험료를 절약하는 첫걸음입니다. 주요 산정 기준은 다음과 같습니다:</p>
+                <ul>
+                    <li>**차량 관련 요소:** 차종, 연식, 배기량, 차량 가액(자차 보험료에 큰 영향), 안전 장치 유무(에어백, ABS 등)</li>
+                    <li>**운전자 관련 요소:** 운전자 연령(만 26세 이상이 일반적으로 유리), 운전 경력, 과거 사고 및 보험금 지급 기록, 교통법규 위반 여부</li>
+                    <li>**가입 조건 관련 요소:** 운전자 범위(1인 한정, 부부 한정 등), 담보 설정 금액(대물/자차 등), 가입 기간, 할인/할증 등급</li>
+                </ul>
+                <p>특히 **할인/할증 등급**은 보험료에 가장 큰 영향을 미치는 요소 중 하나입니다. 무사고 경력이 길어질수록 할인 등급이 올라가 보험료가 절감되지만, 사고를 내 보험금을 청구하면 할증이 붙어 다음 해 보험료가 크게 오를 수 있습니다. 따라서 경미한 사고는 보험 처리 대신 자비로 처리하는 것이 장기적인 관점에서 유리할 수 있습니다.</p>
+
+                <h3>다이렉트 자동차보험의 폭발적인 성장 배경</h3>
+                <p>최근 몇 년간 **다이렉트 자동차보험**의 가입률이 급증한 것은 명확한 이유가 있습니다. 전통적인 설계사를 통한 가입 방식은 상담 수수료나 판매 채널 유지 비용이 보험료에 포함되었지만, 다이렉트 방식은 이러한 중간 유통 과정이 생략되어 소비자에게 직접적으로 보험료 절감 혜택이 돌아갑니다. 다이렉트 채널은 보통 설계사 채널 대비 **15%에서 20%** 이상 저렴한 가격 경쟁력을 갖추고 있습니다. 또한, 소비자가 직접 여러 보험사의 상품을 투명하게 비교하고 가입할 수 있어 편리성과 합리성이 동시에 충족됩니다. 온라인 비교 시스템은 24시간 언제든지 이용 가능하며, 공인인증서나 간편 인증만으로 즉시 견적 확인이 가능해 시간 절약 효과도 큽니다.</p>
+
+                <h3>⚠️ 반드시 체크해야 할 특약과 가입 팁</h3>
+                <h4>1. 자동차상해 vs 자기신체사고</h4>
+                <p>두 항목 모두 운전자 본인과 동승자의 상해를 보상하지만, 보장 범위에서 큰 차이가 있습니다. **자기신체사고**는 상해 등급별 한도 내에서만 보상되며 보험금 지급이 늦어질 수 있습니다. 반면, **자동차상해 특약**은 상해 등급과 관계없이 가입 한도 내에서 치료비와 위자료, 휴업 손해까지 신속하게 보상합니다. 보험료 차이는 크지 않으므로, 경제적 여력이 된다면 무조건 **자동차상해 특약(최소 1억/3천만 원 이상)**을 선택하는 것이 현명합니다. 이는 단순한 팁이 아니라, 전문가들이 한결같이 강조하는 **필수 가입 노하우**입니다.</p>
+                
+                <h4>2. 대물배상 한도 설정</h4>
+                <p>의무 가입 금액은 2천만 원이지만, 최근 고가 수입차와 대형 사고의 증가로 인해 2천만 원으로는 턱없이 부족합니다. 2천만 원 초과분은 운전자가 개인적으로 배상해야 하므로, 대부분의 전문가는 **대물배상 한도를 최소 5억 원 이상, 가능하다면 10억 원으로 설정**할 것을 강력히 권고합니다. 대물 한도를 2억 원에서 10억 원으로 높여도 보험료는 몇만 원 수준으로만 증가하므로, 작은 비용으로 큰 위험을 헤지(Hedge)하는 가장 효과적인 방법입니다.</p>
+
+                <h4>3. 마일리지 (주행거리) 특약의 활용</h4>
+                <p>평소 운행 거리가 짧은 운전자(특히 주말 운전자, 대중교통 이용자)는 마일리지 특약을 반드시 가입해야 합니다. 이 특약은 연간 주행 거리에 따라 보험료를 후(後) 정산하여 환급해 주는 방식으로, 최대 30~40%까지 보험료를 돌려받을 수 있습니다. 차량 계기판 사진 등을 보험사에 제출하는 간편한 절차만 거치면 됩니다. 이 외에도 **TMAP/카카오내비 안전운전 할인, 대중교통 이용 할인** 등 다양한 생활 습관 연계 특약들을 놓치지 마세요. 이 모든 할인 특약들을 종합적으로 적용하면 전체 보험료에서 상당 부분을 절약할 수 있습니다.</p>
+                </div>
+        </section>
+        <section id="survey">
+            <h2>📝 자동차보험 만족도 및 정보 습득 설문</h2>
+            <p>고객님의 의견을 반영하여 더 나은 자동차보험 비교 서비스를 제공하기 위해 잠시 시간을 내어 설문에 참여해 주세요.</p>
+            <form action="#" method="POST" class="form-group" aria-label="자동차보험 만족도 설문 양식">
+                <div class="form-group">
+                    <label>1. 현재 가입하신 자동차보험 상품에 전반적으로 만족하십니까?</label>
+                    <input type="radio" id="satisfy-5" name="satisfaction" value="5" required> <label for="satisfy-5">매우 만족</label>
+                    <input type="radio" id="satisfy-4" name="satisfaction" value="4"> <label for="satisfy-4">만족</label>
+                    <input type="radio" id="satisfy-3" name="satisfaction" value="3"> <label for="satisfy-3">보통</label>
+                    <input type="radio" id="satisfy-2" name="satisfaction" value="2"> <label for="satisfy-2">불만족</label>
+                    <input type="radio" id="satisfy-1" name="satisfy-1" value="1"> <label for="satisfy-1">매우 불만족</label>
+                </div>
+
+                <div class="form-group">
+                    <label>2. 자동차보험 가입 시 가장 중요하게 고려하는 요소는 무엇입니까? (중복 선택 가능)</label>
+                    <input type="checkbox" id="factor-price" name="factor" value="price"> <label for="factor-price">저렴한 보험료</label><br>
+                    <input type="checkbox" id="factor-coverage" name="factor" value="coverage"> <label for="factor-coverage">넓은 보장 범위</label><br>
+                    <input type="checkbox" id="factor-claim" name="factor" value="claim"> <label for="factor-claim">신속한 사고 처리</label><br>
+                    <input type="checkbox" id="factor-service" name="factor" value="service"> <label for="factor-service">긴급 출동 등 부가 서비스</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="free-opinion">3. 자동차보험과 관련하여 궁금하거나 개선이 필요하다고 느끼는 점을 자유롭게 작성해 주세요:</label>
+                    <textarea id="free-opinion" name="free_opinion" rows="4" placeholder="의견을 입력해 주세요."></textarea>
+                </div>
+
+                <a href="#" class="cta-button" onclick="alert('설문에 참여해 주셔서 감사합니다.'); return false;" aria-label="설문 제출하기">설문 제출하기</a>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2025 대한민국 자동차보험 전문 컨설팅. All Rights Reserved. | <a href="#">개인정보처리방침</a> | <a href="#">이용약관</a></p>
+        <p>본 서비스는 보험 비교 정보를 제공하며, 실제 계약은 각 보험사에서 진행됩니다.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('dl dt').forEach((dt) => {
+            dt.addEventListener('click', () => {
+                const isActive = dt.classList.toggle('active');
+                dt.setAttribute('aria-expanded', isActive);
+            });
+            dt.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    dt.click();
+                }
+            });
+        });
+    </script>
+</body>
+
+
+
+
